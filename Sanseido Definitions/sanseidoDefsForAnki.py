@@ -44,7 +44,8 @@ def fetchDef(term):
 			if line.string != None and line.string != u"\n":
 				defText += line.string
 				
-	return re.sub(ur"[^#]（(?P<num>[２-９]+)）", ur"<br/>（\1）", defText)
+	defText = re.sub(ur"［(?P<no>[２-９]+)］", ur"<br/><br/>［\1］", defText)
+	return re.sub(ur"（(?P<num>[２-９]+)）", ur"<br/>（\1）", defText)
 
 # Update note ==================================================================
 from PyQt4.QtCore import *
