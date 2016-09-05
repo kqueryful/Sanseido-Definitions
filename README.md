@@ -1,6 +1,6 @@
 # Sanseido Definitions Plugin for Anki
 
-This is a plugin for [Anki](http://ankisrs.net/), an open source flashcard system. It pulls simplified J-J definitions from [www.sanseido.net](www.sanseido.net)'s デイリーコンサイス国語辞典 (Daily Concise Kokugo Jiten).
+This is a plugin for [Anki](http://ankisrs.net/), an open source flashcard system. It pulls simplified J-J definitions from [www.sanseido.net](http://www.sanseido.net)'s デイリーコンサイス国語辞典 (Daily Concise Kokugo Jiten).
 
 ## Usage
 
